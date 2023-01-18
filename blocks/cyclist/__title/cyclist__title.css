@@ -1,0 +1,9 @@
+.cyclist__title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  color: #FFFFFF;
+  max-width: 470px;
+  margin: 0;
+  flex-basis: 100%;
+}

@@ -1,0 +1,7 @@
+.highway__slider {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  column-gap: 40px;
+}

@@ -1,0 +1,9 @@
+.bicycle-cards__filter {
+  list-style-type: none;
+  margin: 0 40px 0 0;
+
+}
+
+.bicycle-cards__filter:last-child {
+  margin: 0;
+}

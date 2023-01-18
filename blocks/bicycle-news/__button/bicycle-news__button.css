@@ -1,0 +1,19 @@
+.bicycle-news__button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 16px 46px;
+  background: #24B47E;
+  border-radius: 4px;
+  margin: 50px 0 0 0;
+  display: inline-block;
+  z-index: 1;
+}
+
+.bicycle-news__button:hover {
+  background-color: #319E75;
+  transition: all 0.3s ease;
+}
