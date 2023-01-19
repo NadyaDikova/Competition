@@ -28,10 +28,13 @@
 @import url(../blocks/bicycle-news/__bike-fix/bicycle-news__bike-fix.css);
 @import url(../blocks/bicycle-news/__img/bicycle-news__img.css);
 
+@import url(../blocks/separator-line/separator-line.css);
+
 @import url(../blocks/cyclist/cyclist.css);
+@import url(../blocks/cyclist/__container/cyclist__container.css);
 @import url(../blocks/cyclist/__img/cyclist__img.css);
 @import url(../blocks/cyclist/__column/cyclist__column.css);
-@import url(../blocks/cyclist/__title/cyclist__title.css);
+@import url(../blocks/cyclist/__blockquote/cyclist__blockquote.css);
 @import url(../blocks/cyclist/__author/cyclist__author.css);
 @import url(../blocks/cyclist/__job/cyclist__job.css);
 

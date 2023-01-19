@@ -21,4 +21,7 @@
 }
 
 @media (min-width: 1440px) {
+  .bicycle-news {
+    padding: 40px 120px;
+  }
 }
