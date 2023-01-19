@@ -1,6 +1,24 @@
 .bicycle-news {
-  display: flex;
-  justify-content: space-between;
+  box-sizing: border-box;
   position: relative;
-  padding: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 40px;
+  padding: 40px 18px;
+
+  /*temporary*/
+  background: #376b3a;
+}
+
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
 }

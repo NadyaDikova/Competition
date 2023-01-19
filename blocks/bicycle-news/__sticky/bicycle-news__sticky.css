@@ -1,7 +1,28 @@
 .bicycle-news__sticky {
+  box-sizing: border-box;
   position: absolute;
-  min-width: 810px;
-  min-height: 852px;
+  min-height: 400px;
+  height: 100%;
+  width: 100%;
   top: 0;
-  left: 510px;
+  left: 0;
+  background: rgba(132, 77, 178, 0.61);
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+  .bicycle-news__sticky {
+    position: absolute;
+    /*min-width: 810px;*/
+    /*min-height: 852px;*/
+    top: 0;
+    left: 0;
+    /*left: 510px;*/
+  }
 }
