@@ -1,7 +1,9 @@
 .header {
-  background: #333333;
+  /*background: #333333;*/
   box-sizing: border-box;
   position: fixed;
+  display: flex;
+  align-items: center;
   max-width: 1440px;
   min-height: 74px;
   width: 100%;
@@ -10,4 +12,26 @@
   right: 0;
   z-index: 100;
   padding: 0;
+
+  /*temporary*/
+  background: #d3a3de;
+}
+
+.header__menu {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+  .header {
+    min-height: 74px;
+  }
 }
