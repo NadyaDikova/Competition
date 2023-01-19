@@ -1,6 +1,6 @@
 .bicycle-news {
-  padding: 154px 0 0 0;
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding: 0;
 }

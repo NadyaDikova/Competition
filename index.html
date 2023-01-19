@@ -12,53 +12,62 @@
 </head>
 
 <body class="page">
-  <header class="header">
-    <nav>
+<div class="root">
+  <header class="root__header header">
+    <nav class="header__menu">
       <ul class="header__links">
         <li class="header__item">
-          <a class="header__link" href="#" target="_blank">Покрытия и градиенты</a>
+          <a class="header__link" href="#highway">Покрытия и градиенты</a>
         </li>
         <li class="header__item">
-          <a class="header__link" href="#" target="_blank">Велосипеды</a>
+          <a class="header__link" href="#bicycleCards">Велосипеды</a>
         </li>
         <li class="header__item">
-          <a class="header__link" href="#" target="_blank">Тренировки</a>
+          <a class="header__link" href="#training">Тренировки</a>
         </li>
       </ul>
     </nav>
   </header>
+
   <main class="content">
     <section class="bicycle-news">
       <div class="bicycle-news__container">
         <h1 class="title">Шоссе, ТТ и&nbsp;Грэвел</h1>
-        <p class="text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам
+
+        <p class="bicycle-news__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам
           – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
-        <a class="bicycle-news__button" href="#" target="_blank">Подробнее</a>
+
+        <a class="bicycle-news__button" href="#">Подробнее</a>
+
         <p class="bicycle-news__name">Cannondale Systemsix</p>
       </div>
+
+
+      <!--    <img class="bicycle-news__img" src="./images/bicycle-news-forest.jpg" alt="Лес в горах">-->
       <div class="bicycle-news__sticky">
-        <img class="bicycle-news__bike-fix" src="./images/bicycle-news-bicycle.png" alt="Велосипед">
+        <!--        <img class="bicycle-news__bike-fix" src="./images/bicycle-news-bicycle.png" alt="Велосипед Cannondale Systemsix">-->
       </div>
-      <img class="bicycle-news__img" src="./images/bicycle-news-forest.jpg" alt="Лес">
     </section>
+
     <section class="cyclist">
-      <img class="cyclist__img" src="./images/cyclist-forest and mountains.jpg" alt="Лес и горы">
+      <!--      <img class="cyclist__img" src="./images/cyclist-forest and mountains.jpg" alt="Лес и горы">-->
       <div class="cyclist__column">
         <h2 class="cyclist__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
         <p class="cyclist__author">Эдди Меркс</p>
         <p class="cyclist__job">Велогонщик</p>
       </div>
     </section>
-    <section class="highway">
+
+    <section class="highway" id="highway">
       <h2 class="title">Шоссе</h2>
       <p class="text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
         равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
       <ul class="highway__slider">
         <li class="highway__item">
-          <img class="highway__img" src="./images/highway-img.jpg" alt="Шоссе">
+          <!--          <img class="highway__img" src="./images/highway-img.jpg" alt="Шоссе">-->
         </li>
         <li class="highway__item">
-          <img class="highway__img" src="./images/highway-cyclist in forest.jpg" alt="Велосипедист в лесу">
+          <!--          <img class="highway__img" src="./images/highway-cyclist in forest.jpg" alt="Велосипедист в лесу">-->
         </li>
       </ul>
       <div class="highway__buttons">
@@ -66,7 +75,8 @@
         <a class="highway__button-right" href="#"></a>
       </div>
     </section>
-    <section class="bicycle-cards">
+
+    <section class="bicycle-cards" id="bicycleCards">
       <div class="bicycle-cards__row">
         <h2 class="title">Велосипеды</h2>
         <ul class="bicycle-cards__filters">
@@ -84,28 +94,29 @@
       <ul class="cards">
         <li class="cards__card">
           <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN "
-            target="_blank">
-            <img class="cards__img" src="./images/bicycle-one.png" alt="Велосипед">
+             target="_blank">
+            <!--            <img class="cards__img" src="./images/bicycle-one.png" alt="Велосипед">-->
           </a>
           <p class="cards__caption">Cervelo Caledonia-5</p>
         </li>
         <li class="cards__card">
           <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-            target="_blank">
-            <img class="cards__img" src="./images/bicycle-two.png" alt="Велосипед">
+             target="_blank">
+            <!--            <img class="cards__img" src="./images/bicycle-two.png" alt="Велосипед">-->
           </a>
           <p class="cards__caption">Cannondale Systemsix Himod</p>
         </li>
         <li class="cards__card">
           <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-            target="_blank">
-            <img class="cards__img" src="./images/bicycle-three.png" alt="Велосипед">
+             target="_blank">
+            <!--            <img class="cards__img" src="./images/bicycle-three.png" alt="Велосипед">-->
           </a>
           <p class="cards__caption">Trek Domane SL-7</p>
         </li>
       </ul>
     </section>
-    <section class="training">
+
+    <section class="training" id="training">
       <div class="training__column">
         <h2 class="title">Тренировки</h2>
         <p class="text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
@@ -119,9 +130,10 @@
           </li>
         </ul>
       </div>
-      <img class="training__img" src="./images/training-forest.jpg" alt="Дорога">
+      <!--      <img class="training__img" src="./images/training-forest.jpg" alt="Дорога">-->
     </section>
   </main>
+
   <footer class="footer">
     <h3 class="footer__title">Подпишитесь на рассылку —</h3>
     <form action="#">
@@ -129,6 +141,7 @@
     </form>
     <p class="footer__copyright">© Road Club 2021</p>
   </footer>
+</div>
 </body>
 
 </html>
