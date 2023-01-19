@@ -1,8 +1,9 @@
-.bicycle-news__text {
+.text {
   font-size: 18px;
   line-height: 28px;
   color: #E6E6E6;
   opacity: 0.7;
   max-width: 460px;
   margin: 0;
+  padding: 50px 0 0 0;
 }

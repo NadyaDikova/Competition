@@ -10,12 +10,12 @@
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/bicycle-news/bicycle-news.css);
-@import url(../blocks/bicycle-news/__title/bicycle-news__title.css);
-@import url(../blocks/bicycle-news/__text/bicycle-news__text.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/text/text.css);
 @import url(../blocks/bicycle-news/__button/bicycle-news__button.css);
 @import url(../blocks/bicycle-news/__name/bicycle-news__name.css);
 @import url(../blocks/bicycle-news/__sticky/bicycle-news__sticky.css);
-@import url(../blocks/bicycle-news/__bicycle/bicycle-news__bicycle.css);
+@import url(../blocks/bicycle-news/__bike-fix/bicycle-news__bike-fix.css);
 @import url(../blocks/bicycle-news/__img/bicycle-news__img.css);
 
 @import url(../blocks/cyclist/cyclist.css);
@@ -26,8 +26,6 @@
 @import url(../blocks/cyclist/__job/cyclist__job.css);
 
 @import url(../blocks/highway/highway.css);
-@import url(../blocks/highway/__title/highway__title.css);
-@import url(../blocks/highway/__text/highway__text.css);
 @import url(../blocks/highway/__slider/highway__slider.css);
 @import url(../blocks/highway/__item/highway__item.css);
 @import url(../blocks/highway/__img/highway__img.css);
@@ -37,7 +35,6 @@
 
 @import url(../blocks/bicycle-cards/bicycle-cards.css);
 @import url(../blocks/bicycle-cards/__row/bicycle-cards__row.css);
-@import url(../blocks/bicycle-cards/__title/bicycle-cards__title.css);
 @import url(../blocks/bicycle-cards/__filters/bicycle-cards__filters.css);
 @import url(../blocks/bicycle-cards/__filter/bicycle-cards__filter.css);
 @import url(../blocks/bicycle-cards/__link/bicycle-cards__link.css);
@@ -47,8 +44,6 @@
 @import url(../blocks/cards/__caption/cards__caption.css);
 
 @import url(../blocks/training/training.css);
-@import url(../blocks/training/__title/training__title.css);
-@import url(../blocks/training/__text/training__text.css);
 @import url(../blocks/training/__links/training__links.css);
 @import url(../blocks/training/__item/training__item.css);
 @import url(../blocks/training/__link/training__link.css);
