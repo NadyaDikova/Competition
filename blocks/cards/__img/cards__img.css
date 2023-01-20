@@ -17,7 +17,7 @@
 
 @media (max-width: 320px) {
   .cards__img {
-    background: url(../../../images/bicycle-mobile.png);
+    background: url(../../../images/content/bicycle-cards/bicycle-mobile.png);
     padding: 15px 15px 93px 15px;
     background-repeat: no-repeat;
   }

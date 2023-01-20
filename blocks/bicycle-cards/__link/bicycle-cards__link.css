@@ -24,7 +24,7 @@
     font-size: 11px;
   }
   .bicycle-cards__link::after {
-    background: url(../../../images/bicycle-cards-mobile.png);
+    background: url(../../../images/content/bicycle-cards/bicycle-cards-mobile.png);
     content: '';
     display: inline-block;
     width: 12px;
