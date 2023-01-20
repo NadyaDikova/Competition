@@ -1,7 +1,6 @@
 .header {
   box-sizing: border-box;
   max-width: 1440px;
-  background: #333333;
   position: fixed;
   display: flex;
   align-items: center;

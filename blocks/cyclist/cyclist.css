@@ -1,42 +1,43 @@
 .cyclist {
-  padding: 120px 120px 60px 120px;
+  box-sizing: border-box;
+  color: #fff;
   display: grid;
-  grid-template-areas:
-  "img title"
-  "img ."
-  "img author"
-  "img job";
-  justify-content: space-between;
+  gap: 80px;
+  grid-template-columns: auto minmax(284px, 1fr);
+  width: 100%;
+  padding: 120px 120px 60px 120px;
+  margin: 0 auto;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1280px) {
   .cyclist {
-    padding: 120px 120px 60px 120px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cyclist {
+    gap: 20px;
+    padding: 60px 80px 60px 80px;
   }
 }
 
 @media (max-width: 768px) {
-  .cyclist  {
+  .cyclist {
+    gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(min-content, 1fr) min-content;
+    justify-content: center;
+
     padding: 60px 60px 60px 60px;
   }
 }
 
-
-@media (max-width: 320px) {
-  .cyclist  {
-    grid-template-areas:
-    "img "
-    "title "
-    "author "
-    "job ";
-    column-gap: 0;
-    padding: 20px 18px 40px 18px;
-  }
-  .cyclist::after  {
-    content: '';
-    background: url(../../../images/line-mobile.png);
-    display: block;
-    width: 284px;
-    height: 1px;
+@media (max-width: 425px) {
+  .cyclist {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(min-content, 1fr) min-content;
+    justify-content: center;
+    padding: 40px 18px 40px 18px;
   }
 }
