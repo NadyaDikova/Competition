@@ -6,17 +6,3 @@
   margin: 0;
   padding: 0;
 }
-
-@media (max-width: 320px) {
-  .footer__copyright::after  {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 0;
-    background: url(../../../images/footer/footer-logo-mobile.png) no-repeat;
-    width: 34px;
-    height: 34px;
-    display: inline-block;
-    cursor: pointer;
-  }
-}
