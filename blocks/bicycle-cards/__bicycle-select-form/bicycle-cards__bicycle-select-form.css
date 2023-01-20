@@ -1,0 +1,9 @@
+.bicycle-cards__bicycle-select-form {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bicycle-cards__bicycle-select-form {
+    display: block;
+  }
+}

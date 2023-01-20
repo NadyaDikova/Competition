@@ -28,7 +28,7 @@
   }
   .highway::before  {
     content: '';
-    background: url(../../images/highway-buttons-mobile.svg);
+    background: url(../../images/content/highway/highway-buttons-mobile.svg);
     display: block;
     width: 58px;
     height: 24px;

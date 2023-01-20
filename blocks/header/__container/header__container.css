@@ -1,0 +1,18 @@
+.header__container {
+  height: 100%;
+  width: 100%;
+  padding: 28px 120px 28px 120px;
+}
+
+
+@media (max-width: 768px) {
+  .header__container {
+    padding: 28px 60px 28px 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__container {
+    padding: 25px 18px 30px 18px;
+  }
+}

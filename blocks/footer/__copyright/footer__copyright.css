@@ -9,7 +9,7 @@
 
 @media (max-width: 320px) {
   .footer__copyright::after  {
-    background: url(../../../images/footer-logo-mobile.png);
+    background: url(../../../images/content/footer/footer-logo-mobile.png);
     content: '';
     background-repeat: no-repeat;
     width: 34px;
