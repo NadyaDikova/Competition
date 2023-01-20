@@ -28,7 +28,7 @@
 @import url(../blocks/cyclist/cyclist.css);
 @import url(../blocks/cyclist/__column/cyclist__column.css);
 @import url(../blocks/cyclist/__column/_position/cyclist__column_position_right.css);
-@import url(../blocks/cyclist/__separator-line/cyclist__separator-line.css);
+@import url(../blocks/cyclist/__column/_position/cyclist__column_position_left.css);
 @import url(../blocks/cyclist/__img/cyclist__img.css);
 @import url(../blocks/cyclist/__blockquote/cyclist__blockquote.css);
 @import url(../blocks/cyclist/__paragraphs/cyclist__paragraphs.css);
