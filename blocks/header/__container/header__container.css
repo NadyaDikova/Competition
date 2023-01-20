@@ -1,0 +1,21 @@
+.header__container {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 5px 30px;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+  .header__container {
+    padding: 28px 120px;
+  }
+}

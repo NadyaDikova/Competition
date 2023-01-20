@@ -1,6 +1,6 @@
 .bicycle-cards__row {
   margin: 0 0 120px 0;
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
 
 }
