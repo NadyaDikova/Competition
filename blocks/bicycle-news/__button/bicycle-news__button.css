@@ -41,12 +41,13 @@
 
 @media (max-width: 768px) {
   .bicycle-news__button  {
-    margin: 40px 0 0 0;
+    margin: 40px 0 80px 0;
   }
 }
 
 @media (max-width: 320px) {
   .bicycle-news__button  {
-
+    width: 284px;
+    text-align: center;
   }
 }

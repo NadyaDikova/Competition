@@ -13,6 +13,6 @@
 @media (max-width: 320px) {
   .bicycle-news__img {
     max-width: 254px;
-    padding: 0 0 0 30px;
+    padding: 40px 0 0 30px;
   }
 }

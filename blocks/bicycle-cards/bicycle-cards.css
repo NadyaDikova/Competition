@@ -15,7 +15,7 @@
 
 @media (max-width: 320px) {
   .bicycle-cards  {
-    padding: 60px 18px 64px 18px;
+    padding: 0 18px 0 18px;
     grid-template-areas:
     "title title"
     "filters filters"
@@ -28,5 +28,6 @@
     display: block;
     width: 284px;
     height: 1px;
+    margin: 20px 0 0 0;
   }
 }

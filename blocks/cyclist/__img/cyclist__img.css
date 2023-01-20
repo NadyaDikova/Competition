@@ -33,5 +33,6 @@
 @media (max-width: 835px) {
   .cyclist__img  {
     margin: 0;
+    max-width: 284px;
   }
 }

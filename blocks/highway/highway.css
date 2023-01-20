@@ -5,18 +5,18 @@
 @media (max-width: 768px) {
   .highway  {
     padding: 60px 0 60px 60px;
+    position: relative;
   }
 }
 
 @media (max-width: 320px) {
   .highway  {
-    padding: 40px 16px 40px 20px;
+    padding: 0 16px 40px 20px;
     display: grid;
     grid-template-areas:
-    "title ."
-    "slider slider"
-    "text text";
-    row-gap: 40px;
+    "title "
+    "slider "
+    "text ";
   }
   .highway::after  {
     content: '';
@@ -24,5 +24,16 @@
     display: block;
     width: 284px;
     height: 1px;
+    margin: 80px 0 0 0;
+  }
+  .highway::before  {
+    content: '';
+    background: url(../../images/highway-buttons-mobile.svg);
+    display: block;
+    width: 58px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    left: 226px;
   }
 }

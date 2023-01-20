@@ -32,6 +32,6 @@
   .highway__slider::before {
     width: 70px;
     height: 28px;
-    background: url(../../../images/highway-slider-mobile.png);
+    background: url(../../../images/highway-slider-mobile.svg);
   }
 }

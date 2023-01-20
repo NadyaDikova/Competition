@@ -18,10 +18,10 @@
 
 @media (max-width: 320px) {
   .bicycle-news__bike-fix {
-    min-width: 234px;
-    min-height: 160px;
+    width: 180px;
     padding: 0;
-    top: 300px;
+    top: 385px;
+    padding: 10px 26px;
   }
 }
 

@@ -23,13 +23,12 @@
 
 @media (max-width: 320px) {
   .training  {
-    padding: 60px 18px 60px 18px;
+    padding: 40px 18px 60px 18px;
     grid-template-areas:
     "title title"
     "img img"
     "text text"
     "links links";
     column-gap: 0;
-      row-gap: 40px;
   }
 }

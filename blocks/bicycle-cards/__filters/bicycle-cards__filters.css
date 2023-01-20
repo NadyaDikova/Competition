@@ -10,5 +10,6 @@
 @media (max-width: 320px) {
   .bicycle-cards__filters  {
     justify-content: start;
+    padding: 20px 0 0 0;
   }
 }

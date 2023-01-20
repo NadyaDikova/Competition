@@ -30,8 +30,7 @@
     "author "
     "job ";
     column-gap: 0;
-    row-gap: 40px;
-    padding: 20px 18px 80px 18px;
+    padding: 20px 18px 40px 18px;
   }
   .cyclist::after  {
     content: '';

@@ -27,5 +27,7 @@
 @media (max-width: 320px) {
   .training__img   {
     max-width: 284px;
+    max-height: 225px;
+    margin: 40px 0 0 0;
   }
 }
