@@ -5,5 +5,22 @@
   object-fit: cover;
   max-width: 254px;
   margin: 0;
-  /*margin: -60px -120px 0 0;*/
+}
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1440px) {
+  .bicycle-news__img {
+    grid-area: img;
+    max-width: 610px;
+
+    /*grid-column: 2/-1;*/
+    /*grid-row: 1/2;*/
+
+  }
 }

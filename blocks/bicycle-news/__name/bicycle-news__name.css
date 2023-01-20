@@ -3,6 +3,8 @@
   font-size: 18px;
   line-height: 18px;
   color: #FFFFFF;
+  padding: 0;
+  margin: 0;
 }
 .bicycle-news__name::after {
   content: '';
@@ -22,9 +24,13 @@
 
 @media (min-width: 1440px) {
   .bicycle-news__name {
-    display: block;
-    /*margin: 167px 0 209px 0;*/
     font-size: 18px;
     line-height: 18px;
+    display: block;
+    justify-self: start;
+    grid-area: name;
+
+    /*grid-column: 1/2;*/
+    /*grid-row: 1/2;*/
   }
 }

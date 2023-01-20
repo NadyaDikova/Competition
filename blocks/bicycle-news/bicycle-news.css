@@ -17,11 +17,19 @@
 }
 
 @media (min-width: 1024px) {
-
 }
 
 @media (min-width: 1440px) {
   .bicycle-news {
-    padding: 40px 120px;
+    grid-template-columns: auto max-content;
+    /*grid-template-rows: 226px 164px 221px 225px;;*/
+    grid-template-rows: min-content;
+    gap: 0;
+    grid-template-areas:  'title img'
+                          'text img'
+                          'btn img'
+                          'name img';
+
+    padding: 20px 0 0 120px;
   }
 }
