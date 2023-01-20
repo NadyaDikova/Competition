@@ -2,6 +2,8 @@
   padding: 95px 0 0 120px;
   display: grid;
   position: relative;
+  grid-template-columns: minmax(min-content, 400px) 1fr;
+  grid-template-rows: repeat(4, min-content);
   grid-template-areas:
   "title img"
   "text img"
@@ -31,6 +33,7 @@
 @media (max-width: 320px) {
   .bicycle-news  {
     padding: 40px 0 0 18px;
+    grid-template-columns: 1fr;
     grid-template-areas:
     "title "
     "img "
