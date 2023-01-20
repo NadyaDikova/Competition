@@ -1,14 +1,24 @@
 .footer {
-  padding: 80px 0 60px 120px;
   background: #2F2F2F;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  align-self: center;
+  gap: 50px;
+  width: 100%;
+  padding: 80px 120px 60px 120px;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .footer  {
+    padding: 60px 80px 60px 80px;
+  }
 }
 
 @media (max-width: 768px) {
   .footer  {
-    padding: 60px 0 60px 60px;
+    gap: 40px;
+    padding: 60px 60px 60px 60px;
   }
 }
 

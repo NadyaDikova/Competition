@@ -73,6 +73,11 @@
 @import url(../blocks/training/__img/training__img.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__row/footer__row.css);
+@import url(../blocks/footer/__row/_position/footer__row_position_top.css);
+@import url(../blocks/footer/__row/_position/footer__row_position_bottom.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__label/footer__label.css);
 @import url(../blocks/footer/__input/footer__input.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__setting-button/footer__setting-button.css);
