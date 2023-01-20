@@ -164,11 +164,17 @@
   </main>
 
     <footer class="footer">
-      <h3 class="footer__title">Подпишитесь на рассылку —</h3>
-      <form action="#">
-        <input class="footer__input" type="email" name="email" placeholder="    Ваш e-mail">
+      <div class="footer__row footer__row_position_top">
+      <form class="footer__form" action="#">
+        <label class="footer__label" for="footer_email">Подпишитесь на рассылку —</label>
+        <input id="footer_email" class="footer__input" type="email" name="email" placeholder="Ваш e-mail">
       </form>
-      <p class="footer__copyright">© Road Club 2021</p>
+      </div>
+
+      <div class="footer__row footer__row_position_bottom">
+       <p class="footer__copyright">© Road Club 2021</p>
+        <button class="footer__setting-button" type="button"></button>
+      </div>
     </footer>
 </div>
 </body>

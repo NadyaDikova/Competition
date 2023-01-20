@@ -1,0 +1,24 @@
+.footer__setting-button {
+  display: none;
+  width: 44px;
+  height: 24px;
+}
+
+.footer__setting-button::after  {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: url(../../../images/footer/footer-logo-mobile.png) no-repeat;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .footer__setting-button {
+    /*display: none;*/
+  }
+}
