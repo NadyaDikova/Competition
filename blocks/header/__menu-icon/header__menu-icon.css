@@ -1,0 +1,17 @@
+.header__menu-icon {
+  position: absolute;
+  background: url(../../../images/header/header-mobile.png) center no-repeat;
+  top: 50%;
+  right: 18px;
+  width: 22px;
+  height: 19px;
+  transform: translate(0, -50%);
+  display: none;
+}
+
+
+@media (max-width: 425px) {
+  .header__menu-icon {
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+.highway__img {
+  max-width: 100%;
+
+}
+
+@media (max-width: 320px) {
+  .highway__img  {
+    max-width: 284px;
+    padding: 40px 0 0 0;
+  }
+}

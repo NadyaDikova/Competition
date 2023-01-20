@@ -1,3 +1,78 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
 
+@import url(../blocks/page/page.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/root/__content/root__content.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/separator-line/separator-line.css);
+
+@import url(../blocks/bicycle-news/bicycle-news.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/bicycle-news/__button/bicycle-news__button.css);
+@import url(../blocks/bicycle-news/__name/bicycle-news__name.css);
+@import url(../blocks/bicycle-news/__sticky/bicycle-news__sticky.css);
+@import url(../blocks/bicycle-news/__bike-fix/bicycle-news__bike-fix.css);
+@import url(../blocks/bicycle-news/__img/bicycle-news__img.css);
+
+
+@import url(../blocks/cyclist/cyclist.css);
+@import url(../blocks/cyclist/__column/cyclist__column.css);
+@import url(../blocks/cyclist/__column/_position/cyclist__column_position_right.css);
+@import url(../blocks/cyclist/__column/_position/cyclist__column_position_left.css);
+@import url(../blocks/cyclist/__img/cyclist__img.css);
+@import url(../blocks/cyclist/__blockquote/cyclist__blockquote.css);
+@import url(../blocks/cyclist/__paragraphs/cyclist__paragraphs.css);
+@import url(../blocks/cyclist/__author/cyclist__author.css);
+@import url(../blocks/cyclist/__job/cyclist__job.css);
+
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__slider/highway__slider.css);
+@import url(../blocks/highway/__item/highway__item.css);
+@import url(../blocks/highway/__item/_none/highway__item_none.css);
+@import url(../blocks/highway/__img/highway__img.css);
+@import url(../blocks/highway/__buttons/highway__buttons.css);
+@import url(../blocks/highway/__button-left/highway__button-left.css);
+@import url(../blocks/highway/__button-right/highway__button-right.css);
+
+@import url(../blocks/bicycle-cards/bicycle-cards.css);
+@import url(../blocks/bicycle-cards/__row/bicycle-cards__row.css);
+@import url(../blocks/bicycle-cards/__row/_position/bicycle-cards__row_position_top.css);
+@import url(../blocks/bicycle-cards/__title/bicycle-cards__title.css);
+@import url(../blocks/bicycle-cards/__filters/bicycle-cards__filters.css);
+@import url(../blocks/bicycle-cards/__filter/bicycle-cards__filter.css);
+@import url(../blocks/bicycle-cards/__bicycle-select-form/bicycle-cards__bicycle-select-form.css);
+@import url(../blocks/bicycle-cards/__filter-label/bicycle-cards__filter-label.css);
+@import url(../blocks/bicycle-cards/__filter-select/bicycle-cards__filter-select.css);
+@import url(../blocks/bicycle-cards/__filter/_none/bicycle-cards__filter_none.css);
+@import url(../blocks/bicycle-cards/__link/bicycle-cards__link.css);
+
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__item/_visibility/cards__item_visibility_none.css);
+@import url(../blocks/cards/__img/cards__img.css);
+@import url(../blocks/cards/__caption/cards__caption.css);
+
+@import url(../blocks/training/training.css);
+@import url(../blocks/training/__title/training__title.css);
+@import url(../blocks/training/__text-content/training__text-content.css);
+@import url(../blocks/training/__text/training__text.css);
+@import url(../blocks/training/__links/training__links.css);
+@import url(../blocks/training/__link/training__link.css);
+@import url(../blocks/training/__img/training__img.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__input/footer__input.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

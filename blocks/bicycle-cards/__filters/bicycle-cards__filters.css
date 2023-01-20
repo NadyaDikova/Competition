@@ -1,0 +1,13 @@
+.bicycle-cards__filters {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .bicycle-cards__filters  {
+    display: none;
+  }
+}

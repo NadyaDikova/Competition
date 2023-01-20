@@ -1,0 +1,27 @@
+.bicycle-cards__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  color: #E5E5E5;
+  opacity: .7;
+}
+
+.bicycle-cards__link:hover {
+  opacity: .5;
+  transition: all 1s ease;
+}
+
+.bicycle-cards__link:active {
+  font-weight: 600;
+  opacity: .65;
+  color: #FFFFFF;
+  transition: all 1s ease;
+}
+
+@media (max-width: 768px) {
+  .bicycle-cards__link {
+    padding: 8px 0 8px 12px;
+    font-size: 11px;
+  }
+}
+

@@ -1,0 +1,13 @@
+.bicycle-cards__row_position_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .bicycle-cards__row_position_top  {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

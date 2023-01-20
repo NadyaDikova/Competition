@@ -1,0 +1,49 @@
+.bicycle-news {
+  padding: 95px 0 0 120px;
+  display: grid;
+  position: relative;
+  grid-template-areas:
+  "title img"
+  "text img"
+  "button img"
+  "name img";
+  column-gap: 250px;
+}
+
+@media (max-width: 1024px) {
+  .bicycle-news {
+    padding: 100px 0 0 120px;
+  }
+}
+
+@media (max-width: 915px) {
+  .bicycle-news {
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bicycle-news  {
+    padding: 77px 0 0 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bicycle-news  {
+    padding: 40px 0 0 18px;
+    grid-template-areas:
+    "title "
+    "img "
+    "text "
+    "button ";
+    column-gap: 0;
+  }
+  .bicycle-news::after  {
+    content: '';
+    background: url(../../../images/line-mobile.png);
+    display: block;
+    width: 284px;
+    height: 1px;
+  }
+}
+

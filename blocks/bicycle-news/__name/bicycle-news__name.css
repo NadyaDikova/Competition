@@ -1,0 +1,30 @@
+.bicycle-news__name {
+  margin: 167px 0 209px 0;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  grid-area: name;
+}
+.bicycle-news__name::after {
+  content: '';
+  margin: 0 0 0 30px;
+  display: inline-block;
+  height: 2px;
+  width: 132px;
+  background: url(../../../images/content/icons/line.png);
+}
+
+@media (max-width: 1024px) {
+  .bicycle-news__name {
+    margin: 167px 0 50px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .bicycle-news__name  {
+    display: none;
+  }
+  .bicycle-news__name::after{
+    display: none;
+  }
+}

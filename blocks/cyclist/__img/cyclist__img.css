@@ -1,0 +1,14 @@
+.cyclist__img {
+  width: 100%;
+  height: 100%;
+  max-width: 650px;
+  max-height: 460px;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .cyclist__img {
+    min-width: 284px;
+  }
+}

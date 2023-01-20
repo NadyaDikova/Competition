@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .cards__item_visibility_none {
+    display: none;
+  }
+}
+

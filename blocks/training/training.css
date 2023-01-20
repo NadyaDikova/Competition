@@ -1,0 +1,38 @@
+.training {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 1fr minmax(min-content, 480px);
+  justify-content: space-between;
+  gap: 50px;
+  grid-template-areas:
+  "title img"
+  "text img";
+  padding: 150px 120px 120px 120px;
+}
+
+@media (max-width: 1024px) {
+  .training{
+    padding: 100px 60px 120px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .training  {
+    padding: 60px 60px 60px 60px;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(min-content, 1fr) min-content;
+    justify-items: center;
+    grid-template-areas:
+    "title"
+    "img"
+    "text";
+    gap: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .training  {
+    padding: 40px 18px 60px 18px;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,28 @@
+.bicycle-news__bike-fix {
+  position: sticky;
+  top: 466px;
+  left: 0;
+  z-index: 1;
+  padding: 20px 50px;
+  background-color: #F4F4F4;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  .bicycle-news__bike-fix {
+    max-width: 200px;
+    top: 266px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bicycle-news__bike-fix {
+    width: 180px;
+    padding: 0;
+    top: 385px;
+    padding: 10px 26px;
+  }
+}
+
+

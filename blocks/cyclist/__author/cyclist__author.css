@@ -1,0 +1,21 @@
+.cyclist__author {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .cyclist__author {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cyclist__author {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

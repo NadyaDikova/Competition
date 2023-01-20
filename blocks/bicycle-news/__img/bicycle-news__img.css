@@ -1,0 +1,18 @@
+.bicycle-news__img {
+  max-width: 100%;
+  grid-area: img;
+}
+
+@media (max-width: 1024px) {
+  .bicycle-news__img {
+    max-width: 400px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 320px) {
+  .bicycle-news__img {
+    max-width: 254px;
+    padding: 40px 0 0 30px;
+  }
+}

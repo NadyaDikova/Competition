@@ -1,0 +1,21 @@
+.footer__copyright {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #565656;
+  margin: 100px 0 0 0;
+
+}
+
+@media (max-width: 320px) {
+  .footer__copyright::after  {
+    background: url(../../../images/content/footer/footer-logo-mobile.png);
+    content: '';
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    margin: 0 0 -17px 126px;
+    cursor: pointer;
+  }
+}
