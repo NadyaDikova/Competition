@@ -29,6 +29,6 @@
 @media (max-width: 320px) {
   .title  {
     max-width: 200px;
-
+    padding: 0;
   }
 }
