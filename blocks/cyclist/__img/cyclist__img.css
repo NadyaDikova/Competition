@@ -1,11 +1,37 @@
 .cyclist__img {
-  margin: 0 80px 0 0;
   max-width: 100%;
+  grid-area: img;
+}
+
+@media (max-width: 1150px) {
+  .cyclist__img {
+    max-width: 500px;
+    margin: 0 40px 0 0;
+  }
 }
 
 @media (max-width: 1024px) {
   .cyclist__img {
+    object-fit: contain;
     max-width: 400px;
-    margin: 0 40px 0 0;
+    height: 100%;
+  }
+}
+
+@media (max-width: 935px) {
+  .cyclist__img  {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 835px) {
+  .cyclist__img  {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 835px) {
+  .cyclist__img  {
+    margin: 0;
   }
 }

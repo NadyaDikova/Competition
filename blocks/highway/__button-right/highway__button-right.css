@@ -7,3 +7,12 @@
 .highway__button-right:hover {
   opacity: .6;
 }
+
+@media (max-width: 320px) {
+  .highway__button-right  {
+    background: url(../../../images/highway-button-right-mobile.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+}

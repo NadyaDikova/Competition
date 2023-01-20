@@ -3,4 +3,12 @@
   padding: 0;
   margin: 0;
   align-items: flex-end;
+  grid-area: filters;
+  justify-content: flex-end;
+}
+
+@media (max-width: 320px) {
+  .bicycle-cards__filters  {
+    justify-content: start;
+  }
 }

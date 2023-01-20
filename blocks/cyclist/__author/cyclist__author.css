@@ -4,6 +4,12 @@
   line-height: 32px;
   color: #FFFFFF;
   margin: 0;
+  grid-area: author;
+}
 
-
+@media (max-width: 320px) {
+  .cyclist__author {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

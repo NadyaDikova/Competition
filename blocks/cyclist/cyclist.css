@@ -1,4 +1,43 @@
 .cyclist {
-  padding: 120px 0 60px 0;
-  display: flex;
+  padding: 120px 0 60px 120px;
+  display: grid;
+  grid-template-areas:
+  "img title"
+  "img ."
+  "img author"
+  "img job";
+  column-gap: 80px;
+}
+
+@media (max-width: 1350px) {
+  .cyclist {
+    padding: 120px 120px 60px 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cyclist  {
+    padding: 60px 60px 60px 60px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .cyclist  {
+    grid-template-areas:
+    "img "
+    "title "
+    "author "
+    "job ";
+    column-gap: 0;
+    row-gap: 40px;
+    padding: 20px 18px 80px 18px;
+  }
+  .cyclist::after  {
+    content: '';
+    background: url(../../../images/line-mobile.png);
+    display: block;
+    width: 284px;
+    height: 1px;
+  }
 }

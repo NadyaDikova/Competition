@@ -5,6 +5,7 @@
   margin: 80px 0 0 0;
   column-gap: 40px;
   position: relative;
+  grid-area: slider;
 }
 
 .highway__slider::before {
@@ -16,4 +17,21 @@
   left: 0;
   bottom: 16px;
   cursor: pointer;
+}
+
+@media (max-width: 745px) {
+  .highway__slider {
+    column-gap: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .highway__slider  {
+    margin: 0;
+  }
+  .highway__slider::before {
+    width: 70px;
+    height: 28px;
+    background: url(../../../images/highway-slider-mobile.png);
+  }
 }

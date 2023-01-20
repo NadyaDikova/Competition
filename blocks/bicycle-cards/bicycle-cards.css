@@ -1,3 +1,32 @@
 .bicycle-cards {
-  padding: 60px 0 60px 0;
+  padding: 60px 120px 60px 120px;
+  display: grid;
+  grid-template-areas:
+  "title filters"
+  "cards cards";
+  row-gap: 120px;
+}
+
+@media (max-width: 768px) {
+  .bicycle-cards  {
+    padding: 60px 60px 60px 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bicycle-cards  {
+    padding: 60px 18px 64px 18px;
+    grid-template-areas:
+    "title title"
+    "filters filters"
+    "cards cards";
+    row-gap: 20px;
+  }
+  .bicycle-cards::after  {
+    content: '';
+    background: url(../../../images/line-mobile.png);
+    display: block;
+    width: 284px;
+    height: 1px;
+  }
 }

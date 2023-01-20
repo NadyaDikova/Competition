@@ -6,4 +6,28 @@
   color: #FFFFFF;
   margin: 0;
   max-width: 460px;
+  grid-area: title;
+}
+
+@media (max-width: 935px) {
+  .title {
+    font-size: 35px;
+    line-height: 40px;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title  {
+    font-size: 32px;
+    line-height: 40px;
+
+  }
+}
+
+@media (max-width: 320px) {
+  .title  {
+    max-width: 200px;
+
+  }
 }

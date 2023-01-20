@@ -4,4 +4,11 @@
   line-height: 28px;
   margin: 6px 0 0 0;
   opacity: 0.7;
+  grid-area: job;
+}
+@media (max-width: 320px) {
+  .cyclist__job {
+    font-size: 10px;
+    line-height: 16px;
+  }
 }

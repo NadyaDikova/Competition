@@ -17,3 +17,19 @@
   transition: 1s;
   color: #FFFFFF;
 }
+
+@media (max-width: 320px) {
+  .bicycle-cards__link {
+    padding: 8px 0 8px 12px;
+    font-size: 11px;
+  }
+  .bicycle-cards__link::after {
+    background: url(../../../images/bicycle-cards-mobile.png);
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    margin: 0 0 0 42px;
+  }
+}
+

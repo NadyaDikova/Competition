@@ -1,4 +1,31 @@
 .training__img {
   max-width: 100%;
+  grid-area: img;
+
 }
 
+@media (max-width: 1024px) {
+  .training__img{
+    object-fit: contain;
+    max-width: 400px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 935px) {
+  .training__img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 835px) {
+  .training__img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .training__img   {
+    max-width: 284px;
+  }
+}

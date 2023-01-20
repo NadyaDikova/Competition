@@ -7,3 +7,14 @@
 .bicycle-cards__filter:last-child {
   margin: 0;
 }
+
+@media (max-width: 320px) {
+  .bicycle-cards__filter {
+    width: 114px;
+    height: 30px;
+    border: 1px solid #E3E3E3;
+    border-radius: 2px;
+    margin: 0;
+    
+  }
+}

@@ -1,7 +1,55 @@
 .bicycle-news__sticky {
   position: absolute;
-  min-width: 810px;
+  min-width: 440px;
   min-height: 852px;
   top: 0;
-  left: 510px;
+  left: 630px;
+}
+
+@media (max-width: 1090px) {
+  .bicycle-news__sticky {
+    top: 0;
+    left: 560px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bicycle-news__sticky {
+    top: 0;
+    left: 560px;
+    min-width: 300px;
+    min-height: 552px;
+  }
+}
+
+@media (max-width: 915px) {
+  .bicycle-news__sticky {
+    left: 460px;
+  }
+}
+
+@media (max-width: 883px) {
+  .bicycle-news__sticky {
+    left: 460px;
+  }
+}
+
+@media (max-width: 805px) {
+  .bicycle-news__sticky {
+    left: 370px;
+  }
+}
+
+@media (max-width: 680px) {
+  .bicycle-news__sticky {
+    left: 270px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bicycle-news__sticky {
+    left: 18px;
+    min-width: 234px;
+    min-height: 400px;
+  }
 }

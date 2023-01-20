@@ -1,6 +1,35 @@
 .training {
-  padding: 150px 0 120px 0;
-  display: flex;
-  justify-content: space-between;
+  padding: 150px 120px 120px 120px;
+  display: grid;
+  grid-template-areas:
+  "title img"
+  "text img"
+  "links img";
+  column-gap: 160px;
 }
 
+@media (max-width: 1024px) {
+  .training{
+    padding: 100px 120px 120px 120px;
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .training  {
+    padding: 60px 60px 60px 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .training  {
+    padding: 60px 18px 60px 18px;
+    grid-template-areas:
+    "title title"
+    "img img"
+    "text text"
+    "links links";
+    column-gap: 0;
+      row-gap: 40px;
+  }
+}
