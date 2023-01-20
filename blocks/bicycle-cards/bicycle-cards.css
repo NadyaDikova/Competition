@@ -1,5 +1,5 @@
 .bicycle-cards {
-  padding: 60px 120px 60px 120px;
+  padding: 0 120px 60px 120px;
   display: grid;
   grid-template-areas:
   "title filters"
