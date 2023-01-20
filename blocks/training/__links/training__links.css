@@ -1,13 +1,6 @@
 .training__links {
-  padding: 0;
   display: flex;
-  margin: 182px 0 0 0;
-  grid-area: links;
-}
-
-@media (max-width: 320px) {
-  .training__links   {
-    margin: 0;
-    padding: 40px 0 0 0;
-  }
+  gap: 30px;
+  padding: 0;
+  margin: 0;
 }
