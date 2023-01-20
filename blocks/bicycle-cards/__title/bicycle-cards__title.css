@@ -1,0 +1,36 @@
+.bicycle-cards__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (max-width: 1280px) {
+  .bicycle-cards__title  {
+    font-size: 45px;
+    line-height: 50px;  }
+}
+
+@media (max-width: 1024px) {
+  .bicycle-cards__title  {
+    font-size: 40px;
+    line-height: 45px;  }
+}
+
+@media (max-width: 768px) {
+  .bicycle-cards__title  {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  /*.bicycle-cards  {*/
+  /*  font-size: 55px;*/
+  /*  line-height: 60px;*/
+  /*}*/
+}

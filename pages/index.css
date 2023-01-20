@@ -45,16 +45,24 @@
 @import url(../blocks/highway/__button-right/highway__button-right.css);
 
 @import url(../blocks/bicycle-cards/bicycle-cards.css);
+@import url(../blocks/bicycle-cards/__row/bicycle-cards__row.css);
+@import url(../blocks/bicycle-cards/__row/_position/bicycle-cards__row_position_top.css);
+@import url(../blocks/bicycle-cards/__title/bicycle-cards__title.css);
 @import url(../blocks/bicycle-cards/__filters/bicycle-cards__filters.css);
 @import url(../blocks/bicycle-cards/__filter/bicycle-cards__filter.css);
+@import url(../blocks/bicycle-cards/__bicycle-select-form/bicycle-cards__bicycle-select-form.css);
+@import url(../blocks/bicycle-cards/__filter-label/bicycle-cards__filter-label.css);
+@import url(../blocks/bicycle-cards/__filter-select/bicycle-cards__filter-select.css);
 @import url(../blocks/bicycle-cards/__filter/_none/bicycle-cards__filter_none.css);
 @import url(../blocks/bicycle-cards/__link/bicycle-cards__link.css);
+
+
 @import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__card/cards__card.css);
-@import url(../blocks/cards/__card/_none/cards__card_none.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__item/_visibility/cards__item_visibility_none.css);
 @import url(../blocks/cards/__img/cards__img.css);
 @import url(../blocks/cards/__caption/cards__caption.css);
-@import url(../blocks/cards/__caption/_none/cards__caption_none.css);
 
 @import url(../blocks/training/training.css);
 @import url(../blocks/training/__links/training__links.css);

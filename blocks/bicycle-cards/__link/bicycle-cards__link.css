@@ -8,28 +8,20 @@
 
 .bicycle-cards__link:hover {
   opacity: .5;
-  transition: 1s;
+  transition: all 1s ease;
 }
 
 .bicycle-cards__link:active {
   font-weight: 600;
   opacity: .65;
-  transition: 1s;
   color: #FFFFFF;
+  transition: all 1s ease;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .bicycle-cards__link {
     padding: 8px 0 8px 12px;
     font-size: 11px;
-  }
-  .bicycle-cards__link::after {
-    background: url(../../../images/content/bicycle-cards/bicycle-cards-mobile.png);
-    content: '';
-    display: inline-block;
-    width: 12px;
-    height: 7px;
-    margin: 0 0 0 42px;
   }
 }
 

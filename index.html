@@ -66,58 +66,82 @@
       </div>
     </section>
 
-<!--    <section class="highway" id=highway>-->
-<!--      <h2 class="title">Шоссе</h2>-->
-<!--      <p class="text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или-->
-<!--        равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>-->
-<!--      <ul class="highway__slider">-->
-<!--        <li class="highway__item">-->
-<!--          <img class="highway__img" src="images/content/highway/highway-img.jpg" alt="Шоссе">-->
-<!--        </li>-->
-<!--        <li class="highway__item highway__item_none">-->
-<!--          <img class="highway__img" src="images/content/highway/highway__img.jpg" alt="Велосипедист в лесу">-->
-<!--        </li>-->
-<!--      </ul>-->
-<!--      <div class="highway__buttons">-->
-<!--        <a class="highway__button-left" href="#"></a>-->
-<!--        <a class="highway__button-right" href="#"></a>-->
-<!--      </div>-->
-<!--    </section>-->
+    <section class="highway" id=highway>
+      <h2 class="title">Шоссе</h2>
+      <p class="text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
+        равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+      <ul class="highway__slider">
+        <li class="highway__item">
+          <img class="highway__img" src="images/content/highway/highway-img.jpg" alt="Шоссе">
+        </li>
+        <li class="highway__item highway__item_none">
+          <img class="highway__img" src="images/content/highway/highway__img.jpg" alt="Велосипедист в лесу">
+        </li>
+      </ul>
+      <div class="highway__buttons">
+        <a class="highway__button-left" href="#"></a>
+        <a class="highway__button-right" href="#"></a>
+      </div>
+    </section>
 
-<!--    <section class="bicycle-cards" id=bicycle-cards>-->
-<!--      <h2 class="title">Велосипеды</h2>-->
-<!--      <ul class="bicycle-cards__filters">-->
-<!--        <li class="bicycle-cards__filter">-->
-<!--          <a class="bicycle-cards__link" href="#">Шоссе</a>-->
-<!--        </li>-->
-<!--        <li class="bicycle-cards__filter bicycle-cards__filter_none">-->
-<!--          <a class="bicycle-cards__link" href="#">Грэвел</a>-->
-<!--        </li>-->
-<!--        <li class="bicycle-cards__filter bicycle-cards__filter_none">-->
-<!--          <a class="bicycle-cards__link" href="#">TT</a>-->
-<!--        </li>-->
-<!--      </ul>-->
-<!--      <ul class="cards">-->
-<!--        <li class="cards__card">-->
-<!--          <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN ">-->
-<!--            <img class="cards__img" src="images/content/bicycle-cards/bicycle-one.png" alt="Велосипед">-->
-<!--          </a>-->
-<!--          <p class="cards__caption cards__caption_none">Cervelo Caledonia-5</p>-->
-<!--        </li>-->
-<!--        <li class="cards__card cards__card_none">-->
-<!--          <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">-->
-<!--            <img class="cards__img" src="images/content/bicycle-cards/bicycle-two.png" alt="Велосипед">-->
-<!--          </a>-->
-<!--          <p class="cards__caption">Cannondale Systemsix Himod</p>-->
-<!--        </li>-->
-<!--        <li class="cards__card cards__card_none">-->
-<!--          <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">-->
-<!--            <img class="cards__img" src="images/content/bicycle-cards/bicycle-three.png" alt="Велосипед">-->
-<!--          </a>-->
-<!--          <p class="cards__caption">Trek Domane SL-7</p>-->
-<!--        </li>-->
-<!--      </ul>-->
-<!--    </section>-->
+    <section class="bicycle-cards" id=bicycle-cards>
+
+        <div class="bicycle-cards__row bicycle-cards__row_position_top">
+           <div class="separator-line bicycle-cards__separator-line"></div>
+
+           <h2 class="bicycle-cards__title">Велосипеды</h2>
+
+
+              <ul class="bicycle-cards__filters">
+                <li class="bicycle-cards__filter">
+                  <a class="bicycle-cards__link" href="#">Шоссе</a>
+                </li>
+                <li class="bicycle-cards__filter bicycle-cards__filter_none">
+                  <a class="bicycle-cards__link" href="#">Грэвел</a>
+                </li>
+                <li class="bicycle-cards__filter bicycle-cards__filter_none">
+                  <a class="bicycle-cards__link" href="#">TT</a>
+                </li>
+              </ul>
+
+<!--          todo unused class form-->
+          <form action="#" class="bicycle-cards__bicycle-select-form">
+            <label class="bicycle-cards__filter-label" for="bicycle_select">Выберите модель</label>
+              <select class="bicycle-cards__filter-select" name="bicycle_select" id="bicycle_select">
+                <option value="value1" selected>Шоссе</option>
+                <option value="value2">Грэвел</option>
+                <option value="value3">TT</option>
+              </select>
+          </form>
+        </div>
+
+        <div class="bicycle-cards__row">
+          <ul class="cards">
+            <li class="cards__item">
+              <a class="cards__link" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN ">
+                <img class="cards__img"
+                     src="images/content/bicycle-cards/bicycle-one.png"
+                     alt="Велосипед модели Cervelo Caledonia-5">
+              </a>
+              <p class="cards__caption">Cervelo Caledonia-5</p>
+            </li>
+
+            <li class="cards__item cards__item_visibility_none">
+              <a class="cards__link" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">
+                <img class="cards__img" src="images/content/bicycle-cards/bicycle-two.png" alt="Велосипед модели Cannondale Systemsix Himod">
+              </a>
+              <p class="cards__caption">Cannondale Systemsix Himod</p>
+            </li>
+
+            <li class="cards__item cards__item_visibility_none">
+              <a class="cards__link" href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">
+                <img class="cards__img" src="images/content/bicycle-cards/bicycle-three.png" alt="Велосипед модели Trek Domane SL-7">
+              </a>
+              <p class="cards__caption">Trek Domane SL-7</p>
+            </li>
+          </ul>
+      </div>
+    </section>
 
 <!--    <section class="training" id=training>-->
 <!--      <h2 class="title">Тренировки</h2>-->
